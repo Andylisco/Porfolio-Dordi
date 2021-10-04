@@ -1,0 +1,171 @@
+.LetraPagina
+{
+    font-family: 'Roboto', sans-serif;
+}
+.Fondo{
+    background-image: url(image_processing20200312-10185-6liqft.gif);
+    
+    
+    
+    background-size: cover;
+    /*-moz-background-size: contain;
+    -webkit-background-size: contain;
+    -o-background-size: contain;                    
+    background-repeat: repeat-y;*/      
+    
+    height: 200%;
+    
+}     
+/*SECCION 1*/
+
+#NombreCaja
+{
+    width: 500px;
+    position: absolute;
+    top: 50px;
+    left: 850px;      
+}
+
+#NombreFont
+{            
+    font-weight: bolder;
+    font-size: 70px;
+    color:   rgb(249, 161, 44);
+    text-align: center;
+       
+}
+.CajaDelDesplegable
+{
+    position: absolute;
+    top: 150px;
+    left: 500px;
+    height: 30px;
+    width: 1200px;
+}
+.DivContainers
+{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;   
+    color:   rgb(249, 161, 44);        
+}
+#ImagenCircular
+{
+    align-items: center;      
+    position: absolute;      
+    top: 500px;           
+    left: 980px;
+   
+    width: 250px;
+
+    border-radius: 50%;
+    box-shadow: 10px 10px 20px rgba(2, 2, 2, 0.815);
+    
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;                      
+} 
+ #ImagenCircular:hover 
+{      
+    transform: scale(1.5);
+    box-shadow: 20px 20px 30px rgba(2, 2, 2, 0.815);
+    /*box-shadow: 10px 10px 20px rgba(38, 95, 219, 0.452);*/
+
+    transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -ms-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;                                                
+}
+/*SECCION 1 FIN*/
+
+/*SECCION 2 */
+/*SECCION 3*/
+#CajaConotactos
+{
+
+}
+/*SECCION 3 FIN*/
+#CajaConocimientos
+{
+width: 650px;
+position: absolute;
+top: 950px;
+left: 800px; 
+}
+#Titulos
+{
+font-weight: bolder;
+font-size: 70px;
+color:  rgb(249, 161, 44);
+text-shadow:10px 5px 10px  black;
+text-align: center;
+
+justify-items: center;
+position: relative;
+left: 0%;       
+}
+#rectanguloConocimientos {           
+display: flex;     
+border-radius: 20px;  
+background-color: rgb(38, 95, 219);
+justify-items: center;
+justify-content: center;
+width: 1150px;
+position: relative;
+
+left: -270px;
+}
+#rectanguloConocimientos div {            
+border-right: 1px solid rgb(249, 161, 44);
+padding:1rem;
+}  
+#rectanguloConocimientos img {   
+border-radius: 30%;
+background-color:  rgb(161, 175, 192);
+transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out; 
+}        
+#rectanguloConocimientos img:hover{            
+background-color: white;
+transition: all 1s ease-in-out;
+-moz-transition: all 1s ease-in-out;
+-ms-transition: all 1s ease-in-out;
+-webkit-transition: all 1s ease-in-out;
+-o-transition: all 1s ease-in-out; 
+}
+
+
+.logosLenguaje
+{
+height: 170px;
+}
+/*SECCION 2 FIN*/
+
+/*SECCION 3 */
+#CajaContactos
+{
+width: 650px;
+position: absolute;
+top: 1500px;
+left: 800px; 
+}
+#CajaRedes
+{
+display: flex; 
+flex-direction: column; 
+padding-left: 225px;      
+}
+
+.logosRedes {   
+height: 80px;    
+left: 300px;
+}    
+/*SECCION 3 FIN*/
+    
